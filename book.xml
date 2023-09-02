@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="BookStyle.xsl"?>
+<xs:book xmlns:xs="http://www.example.org/NewXMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/NewXMLSchema XMLSchema.xsd ">
+  <xs:book>
+    <xs:title>xs:Cricket</xs:title>
+    <xs:authors>xs:Rukesh</xs:authors>
+    <xs:price>100000.1</xs:price>
+    <xs:quantity>xs:20</xs:quantity>
+  </xs:book>
+  
+  <xs:book>
+    <xs:title>xs:Cricket-Gully</xs:title>
+    <xs:authors>xs:Rukesh1</xs:authors>
+    <xs:price>100001.1</xs:price>
+    <xs:quantity>xs:21</xs:quantity>
+  </xs:book>
+  
+  <xs:book>
+    <xs:title>xs:Cricket-Test</xs:title>
+    <xs:authors>xs:Rukesh2</xs:authors>
+    <xs:price>100002.1</xs:price>
+    <xs:quantity>xs:22</xs:quantity>
+  </xs:book>
+  
+  <xs:book>
+    <xs:title>xs:Cricket-Stadium</xs:title>
+    <xs:authors>xs:Rukesh3</xs:authors>
+    <xs:price>100003.1</xs:price>
+    <xs:quantity>xs:23</xs:quantity>
+  </xs:book>
+  
+  <xs:book>
+    <xs:title>xs:Cricket_ODI</xs:title>
+    <xs:authors>xs:Rukesh4</xs:authors>
+    <xs:price>100004.1</xs:price>
+    <xs:quantity>xs:24</xs:quantity>
+  </xs:book>
+</xs:book>

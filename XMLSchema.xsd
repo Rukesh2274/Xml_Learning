@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/NewXMLSchema" xmlns:tns="http://www.example.org/NewXMLSchema" elementFormDefault="qualified">
+ <xs:element name="book">
+	<xs:complexType>
+		<xs:sequence>
+ <xs:element name="book" maxOccurs="unbounded">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="title" type="xs:string" maxOccurs="1"></xs:element>
+			<xs:element name="authors" type="xs:string" maxOccurs="4"></xs:element>
+			<xs:element name="price" type="xs:decimal" maxOccurs="1"></xs:element>
+			<xs:element name="quantity" type="xs:string" maxOccurs="1"></xs:element>
+		</xs:sequence>
+			<xs:attribute name="Bid" type="xs:int"></xs:attribute>
+	</xs:complexType>
+ </xs:element>
+ </xs:sequence>
+ </xs:complexType>
+</xs:element>
+</xs:schema>
